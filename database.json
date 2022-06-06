@@ -1,0 +1,207 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "fullName": "Batman Gotham",
+      "email": "GothamCityRescue@batman.com",
+      "isStaff": false
+    },
+    {
+      "id": 2,
+      "fullName": "Michael Meyers",
+      "email": "HalloweenStalker1234@gmail.com",
+      "isStaff": true
+    },
+    {
+      "id": 3,
+      "fullName": "Shrek Pullman ",
+      "email": "EveryoneLuvsGreenGuy11@hotmail.com",
+      "isStaff": true
+    },
+    {
+      "id": 4,
+      "fullName": "Romeo McBeth",
+      "email": "shakespearefan4ever@yahoo.com",
+      "isStaff": false
+    },
+    {
+      "id": 5,
+      "fullName": "Francine Ozark",
+      "email": "FranOzark33@yahoo.com",
+      "isStaff": true
+    },
+    {
+      "id": 6,
+      "fullName": "Kent Clark",
+      "email": "supermanNotAvailable@aol.com",
+      "isStaff": false
+    }
+  ],
+  "customers": [
+    {
+      "id": 1,
+      "loyalNumber": 11111,
+      "userId": 2
+    },
+    {
+      "id": 2,
+      "loyalNumber": 22222,
+      "userId": 1
+    },
+    {
+      "id": 3,
+      "loyalNumber": 33333,
+      "userId": 3
+    },
+    {
+      "id": 4,
+      "loyalNumber": 44444,
+      "userId": 5
+    },
+    {
+      "id": 5,
+      "loyalNumber": 55555,
+      "userId": 6
+    },
+    {
+      "id": 6,
+      "loyalNumber": 66666,
+      "userId": 4
+    }
+  ],
+  "employees": [
+    {
+      "id": 1,
+      "startDate": "May 10, 1999",
+      "payRate": 72.47,
+      "locationId": 1,
+      "userId": 4
+    },
+    {
+      "id": 2,
+      "startDate": "August 18, 1987",
+      "payRate": 22.2,
+      "locationId": 2,
+      "userId": 5
+    },
+    {
+      "id": 3,
+      "startDate": "November 2, 2020",
+      "payRate": 45,
+      "locationId": 3,
+      "userId": 6
+    },
+    {
+      "id": 4,
+      "startDate": "December 12, 2018",
+      "payRate": 80.95,
+      "locationId": 1,
+      "userId": 1
+    }
+  ],
+  "locations": [
+    {
+      "id": 1,
+      "address": "1200 Michigan Avenue, Lansing, Michigan",
+      "squareFootage": 450
+    },
+    {
+      "id": 2,
+      "address": "900 Bath Road, Grand Rapids, Michigan",
+      "squareFootage": 1200
+    },
+    {
+      "id": 3,
+      "address": "100 Sunrise Avenue, Detroit, Michigan",
+      "squareFootage": 5000
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Air Heads",
+      "price": 1.5,
+      "productTypeId": 1
+    },
+    {
+      "id": 2,
+      "name": "Dove Dark Chocolate",
+      "price": 5.79,
+      "productTypeId": 2
+    },
+    {
+      "id": 3,
+      "name": "Kit Kat",
+      "price": 0.99,
+      "productTypeId": 2
+    },
+    {
+      "id": 4,
+      "name": "Hershey Chocolate",
+      "price": 1.99,
+      "productTypeId": 2
+    },
+    {
+      "id": 5,
+      "name": "Skittles",
+      "price": 2.39,
+      "productTypeId": 3
+    },
+    {
+      "name": "Candy Corn",
+      "productTypeId": 3,
+      "price": 2.99,
+      "id": 6
+    },
+    {
+      "name": "Gummy Bears",
+      "productTypeId": 1,
+      "price": 0.5,
+      "id": 7
+    }
+  ],
+  "productTypes": [
+    {
+      "id": 1,
+      "category": "Taffy"
+    },
+    {
+      "id": 2,
+      "category": "Chocolate"
+    },
+    {
+      "id": 3,
+      "category": "Hard Candy"
+    }
+  ],
+  "purchases": [
+    {
+      "id": 1,
+      "customerId": 2,
+      "productId": 3,
+      "locationId": 3,
+      "quantity": 9
+    },
+    {
+      "id": 2,
+      "customerId": 1,
+      "productId": 5,
+      "locationId": 1,
+      "quantity": 200
+    },
+    {
+      "id": 3,
+      "customerId": 4,
+      "productId": 1,
+      "locationId": 2,
+      "quantity": 45
+    },
+    {
+      "id": 4,
+      "customerId": 3,
+      "productId": 2,
+      "locationId": 1,
+      "quantity": 199
+    }
+  ]
+}
